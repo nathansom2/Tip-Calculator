@@ -1,0 +1,13 @@
+bill = input('how much was the bill?')
+#print(type(bill)) 
+bill_as_int = int(bill)
+#print(bill_as_int)
+#print(type(bill_as_int))
+fifthteen = bill_as_int * (0.15)
+eighteen = bill_as_int * 0.18
+twenty = bill_as_int * 0.20
+print("your tip suggestions are: ")
+print(f"15% = {fifthteen}")
+print(f"18% = {eighteen}")
+print(f"20% = {twenty}")
+print("have a nice day!")
